@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Collection | Ummi Abdalla</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Specific Page Enhancements */
+        .product-section {
+            padding: 100px 0;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+        }
+        .reveal-text {
+            animation: fadeInUp 1s ease forwards;
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .sticky-summary {
+            position: sticky;
+            top: 150px;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar py-4 sticky-top">
+    <div class="container">
+        <a class="navbar-brand brand-name text-gold" href="index.html">UMMI ABDALLA</a>
+        <a href="index.html" class="btn-gold px-3 py-1" style="font-size: 10px;">Home</a>
+    </div>
+</nav>
+
+<section class="product-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-7 mb-4 mb-lg-0">
+                <div class="luxury-card overflow-hidden">
+                    <div class="img-container" style="height: 60vh;">
+                        <img src="watch.jpg" class="product-img h-100" alt="Gilded Chronograph">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 ps-lg-5 reveal-text">
+                <h6 class="text-gold ls-2 mb-3">FINE HOROLOGY</h6>
+                <h1 class="brand-name display-4 mb-4">Gilded <br>Chronograph</h1>
+                <p class="text-white-50 mb-5">Hand-assembled in Switzerland, featuring an 18k yellow gold bezel and a mechanical movement that speaks of timeless precision.</p>
+                <div class="d-flex gap-4 border-top border-secondary pt-4">
+                    <div><small class="text-gold">Movement</small><p>Automatic</p></div>
+                    <div><small class="text-gold">Strap</small><p>Alligator</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="product-section" style="background: rgba(255,255,255,0.02);">
+    <div class="container">
+        <div class="row align-items-center flex-lg-row-reverse">
+            <div class="col-lg-7 mb-4 mb-lg-0">
+                <div class="luxury-card overflow-hidden">
+                    <div class="img-container" style="height: 60vh;">
+                        <img src="jewelry.jpg" class="product-img h-100" alt="Sapphire Horizon">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 pe-lg-5 text-lg-end reveal-text">
+                <h6 class="text-gold ls-2 mb-3">HIGH JEWELRY</h6>
+                <h1 class="brand-name display-4 mb-4">Sapphire <br>Horizon</h1>
+                <p class="text-white-50 mb-5">A 5-carat Ceylon sapphire cradled in a nest of brilliant-cut diamonds. An ocean of elegance around your neck.</p>
+                <div class="d-flex gap-4 border-top border-secondary pt-4 justify-content-lg-end">
+                    <div><small class="text-gold">Carat</small><p>5.0 ct</p></div>
+                    <div><small class="text-gold">Setting</small><p>Platinum</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="product-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-7 mb-4 mb-lg-0">
+                <div class="luxury-card overflow-hidden">
+                    <div class="img-container" style="height: 60vh;">
+                        <img src="ring.jpg" class="product-img h-100" alt="Aura Solitaire">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 ps-lg-5 reveal-text">
+                <h6 class="text-gold ls-2 mb-3">BESPOKE RINGS</h6>
+                <h1 class="brand-name display-4 mb-4">Aura <br>Solitaire</h1>
+                <p class="text-white-50 mb-5">The ultimate symbol of devotion. A 2.5-carat pear-cut diamond set in 18k rose gold with a hidden halo.</p>
+                <a href="contact.html" class="btn-gold w-100 text-center py-3 mt-4">Book a Private Viewing</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="py-5 text-center">
+    <p class="brand-name small opacity-50 ls-2">UMMI ABDALLA PRIVATE GALLERY &copy; 2026</p>
+</footer>
+
+</body>
+</html>
